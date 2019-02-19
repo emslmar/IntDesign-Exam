@@ -1,0 +1,66 @@
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead-blue{
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(3rem + 72px);
+  padding-bottom: 3rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(#18bc9c), to(#a111ea));
+  background: linear-gradient(0deg, #18bc9c 0%, #a111ea 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800 !important;
+}
+
+.img-square {
+  max-width: 400px;
+  height: 400px;
+}
+
+.small-rounded-circle {
+  border-radius: 50% !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left:40px;
+  padding-right:40px;
+}
